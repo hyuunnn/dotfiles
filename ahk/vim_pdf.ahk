@@ -17,6 +17,7 @@ RemoveToolTip:
     ToolTip
 return
 
+; HHKB
 #If (ScriptEnabled)
 
 `;::Left
