@@ -5,7 +5,7 @@ ScriptEnabled := false
 F1::
     ScriptEnabled := !ScriptEnabled
     if (ScriptEnabled) {
-        ToolTip, vim_pdf Enable., A_ScreenWidth-20, A_ScreenHeight-20
+        ToolTip, vim_pdf Enable, A_ScreenWidth-20, A_ScreenHeight-20
     } else {
         ToolTip, vim_pdf Disable, A_ScreenWidth-20, A_ScreenHeight-20
     }
