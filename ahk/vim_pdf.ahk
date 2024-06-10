@@ -5,9 +5,9 @@ ScriptEnabled := false
 F1::
     ScriptEnabled := !ScriptEnabled
     if (ScriptEnabled) {
-        ToolTip, Script Enable., A_ScreenWidth-20, A_ScreenHeight-20
+        ToolTip, vim_pdf Enable., A_ScreenWidth-20, A_ScreenHeight-20
     } else {
-        ToolTip, Script Disable, A_ScreenWidth-20, A_ScreenHeight-20
+        ToolTip, vim_pdf Disable, A_ScreenWidth-20, A_ScreenHeight-20
     }
     SetTimer, RemoveToolTip, 3000 ; 3초 후 툴팁 자동으로 사라지도록 설정
 return
