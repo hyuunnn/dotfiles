@@ -1,8 +1,8 @@
 ; 스크립트 활성화/비활성화
 ScriptEnabled := false
 
-; ~ 키를 누르면 스크립트를 활성화/비활성화
-~::
+; F1 키를 누르면 스크립트를 활성화/비활성화
+F1::
     ScriptEnabled := !ScriptEnabled
     if (ScriptEnabled) {
         ToolTip, Script Enable., A_ScreenWidth-20, A_ScreenHeight-20
