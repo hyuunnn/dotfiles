@@ -1,6 +1,13 @@
 ; 스크립트 활성화/비활성화
 ScriptEnabled := false
 
+; 좌표
+Toggle := false
+LeftX := -600
+LeftY := 600
+RightX := 1400
+RightY := 600
+
 ; F1 키를 누르면 스크립트를 활성화/비활성화
 F1::
     ScriptEnabled := !ScriptEnabled
@@ -27,5 +34,14 @@ return
 [::Up
 
 /::Down
+
+Space::
+    if (Toggle) {
+        Click %LeftX%, %LeftY%
+    } else {
+        Click %RightX%, %RightY%
+    }
+    Toggle := !Toggle
+return
 
 #If
