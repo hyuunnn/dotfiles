@@ -3,7 +3,7 @@ ScriptEnabled := false
 
 ; 좌표
 Toggle := false
-LeftX := -600
+LeftX := -500
 LeftY := 600
 RightX := 1400
 RightY := 600
